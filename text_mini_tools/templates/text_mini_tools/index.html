@@ -1,3 +1,4 @@
+{% load i18n %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,10 +10,10 @@
     <form method="post">
         {% csrf_token %}
         {{ text_field }}
-        <button type="submit">Count chars</button>
+        <button type="submit">{% trans "Count chars" %}</button>
     </form>
     {% if count > 0 %}
-        <h3>Number of chars: </h3><p>{{ count }}</p>
+        <h3>{% trans "Number of chars:" %} </h3><p>{{ count }}</p>
     {% endif %}
 </body>
 </html>

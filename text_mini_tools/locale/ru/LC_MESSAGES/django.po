@@ -26,7 +26,7 @@ msgstr "Впиши сюда свой текст"
 
 #: .\templates\text_mini_tools\index.html:13
 msgid "Count chars"
-msgstr "Пощитать символы"
+msgstr "Посчитать символы"
 
 #: .\templates\text_mini_tools\index.html:16
 msgid "Number of chars:"

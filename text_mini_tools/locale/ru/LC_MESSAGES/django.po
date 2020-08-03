@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-31 17:13+0200\n"
+"POT-Creation-Date: 2020-08-03 00:13+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,10 +24,30 @@ msgstr ""
 msgid "Type here your text"
 msgstr "Впиши сюда свой текст"
 
-#: .\templates\text_mini_tools\index.html:13
+#: .\templates\text_mini_tools\count_chars.html:8
 msgid "Count chars"
 msgstr "Посчитать символы"
 
-#: .\templates\text_mini_tools\index.html:16
-msgid "Number of chars:"
-msgstr "Количество символов:"
+#: .\templates\text_mini_tools\count_chars.html:11
+msgid "Number of chars"
+msgstr "Количество символов"
+
+#: .\templates\text_mini_tools\count_whitespaces.html:8
+#, fuzzy
+#| msgid "Count chars"
+msgid "Count whitespaces"
+msgstr "Посчитать пустые символы"
+
+#: .\templates\text_mini_tools\count_whitespaces.html:11
+#, fuzzy
+#| msgid "Number of chars"
+msgid "Number of whitespaces"
+msgstr "Количество пустых символов"
+
+#: .\templates\text_mini_tools\text_mini_tools.html:6
+msgid "Whitespace counter"
+msgstr "Посчитать пустые символы"
+
+#: .\templates\text_mini_tools\text_mini_tools.html:7
+msgid "Char counter"
+msgstr "Посчитать символы"
